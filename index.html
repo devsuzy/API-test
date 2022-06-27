@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내게 맞는 타이어 찾기</title>
+</head>
+<body>
+    <header>
+        <h2>타이어 사이즈 확인하기</h1>
+        <form action="" method="get">
+            <select name="단면폭" id="width" onChange="changeSelect('width')">
+                <option value="">단면폭 선택</option>
+                <option value="165">165</option>
+                <option value="175">175</option>
+                <option value="185">185</option>
+                <option value="195">195</option>
+                <option value="205">205</option>
+                <option value="215">215</option>
+                <option value="225">225</option>
+                <option value="235">235</option>
+                <option value="245">245</option>
+                <option value="255">255</option>
+                <option value="265">265</option>
+                <option value="275">275</option>
+                <option value="285">285</option>
+                <option value="295">295</option>
+                <option value="305">305</option>
+                <option value="315">315</option>
+                <option value="325">325</option>
+                <option value="345">345</option>
+            </select>
+            <select name="편평비" id="ratio" onChange="changeSelect('ratio')">
+            </select>
+            <select name="림직경" id="rim" onChange="changeSelect('rim')">
+            </select>
+            <input type="submit" value="내게 맞는 타이어 찾기">
+        </form>
+    </header>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
